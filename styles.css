@@ -2,8 +2,9 @@
 
 :root {
   --primary-color: #3282B8;
-  --primary-color-dark: #0F4C75;
-  --accent-color: #FFF8F0;
+  --primary-color-dark: #3A3845;
+  --accent-color: #fff8f0fd;
+  --aux-color: #C69B7B; 
 }
 
 html {
@@ -19,7 +20,7 @@ body {
 .navbar {
   position: fixed;
   width: 100%;
-  background-color: var(--primary-color-dark);
+  background-color: #3A3845;
   z-index: 1;
 }
 
@@ -64,6 +65,7 @@ body {
 
 .introduction {
   padding-left: 50px;
+  text-shadow: black 0.1em 0.1em 0.2em
 }
 
 .content {
@@ -83,11 +85,11 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: var(--accent-color);
 }
 
 .avatar-container img {
-  height: 700px;
+  margin-top: 60px;
+  height: 450px;
   width: auto;
 }
 
@@ -118,7 +120,7 @@ h1 {
 }
 
 .text-section {
-  background-color: var(--primary-color);
+  background-color: #826F66;
   display: flex;
   flex-direction: column;
   justify-content: center;
